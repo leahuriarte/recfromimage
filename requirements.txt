@@ -1,0 +1,7 @@
+fastai==2.4.1
+keras==2.11.0
+matplotlib==3.4.2
+numpy==1.21.1
+Pillow==8.4.0
+scipy==1.7.0
+#python version should be >= 3.8
