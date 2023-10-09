@@ -1,0 +1,13 @@
+﻿Note: The main file is called style.pkl
+
+
+1. Prepare Your Wallpaper Data:
+   1. In the code, wallpapers are represented as instances of the Wallpaper class. You should create your own list of wallpapers with their respective IDs, colors, and styles, based on the Boho database. Modify the wallpapers list to match your data.
+2. Load the Pretrained Model:
+   1. The code uses a pretrained model to classify the style of an input image. Ensure that you have the model file (e.g., style.pkl) in the same directory as your code. You can load the model like this:
+3. Define an Input Image:
+   1. Specify the path to the image you want to get wallpaper recommendations for. Replace image_path with the path to your image:
+4. Get Wallpaper Recommendations:
+   1. Call the give_recommendation(image_path) function, passing in the path to your input image. It will return a list of wallpaper recommendations based on the style and color of the image.
+5. Customize the Number of Recommendations:
+   1. By default, the code returns up to 6 wallpaper recommendations. You can adjust this number in the code where it says if len(matches) == 6: to your desired limit.
